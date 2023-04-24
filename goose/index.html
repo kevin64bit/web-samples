@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body background>
+<!-- Start your code here -->
+  <button id="ShowHide" onclick='ShowHide("goose")'>Hide goose</button>
+  <br/>
+  <button onclick='MoveLeftRight("goose",-20)'>Move Left</button>
+  <button onclick='MoveLeftRight("goose",20)'>Move Right</button>
+  <table>
+  <tr>
+    <td>Size</td>
+    <td><input id="goose_size" type="range" min="1" max="400" onchange='ResizeGoose()'/></td>
+    <td id="slider_size"></td>
+  </tr>
+  <tr>
+    <td>Left/Right</td>
+    <td><input id="goose_horizontal" type="range" min="-20" max="90" onchange='MoveGoose()'/></td>
+    <td id="slider_left"></td>
+  </tr>
+  <tr>
+    <td>Up/Down</td>
+    <td><input id="goose_vertical" type="range" min="-20" max="90" onchange='MoveGoose()'/></td>
+    <td id="slider_top"></td>
+  </tr>
+  </table>
+  <div id="goose">
+    <img id="goose_img" src="https://raw.githubusercontent.com/kevin64bit/web-samples/main/goose/img/small-goose.png" title="HONK!" />
+  </div>
+
+<!-- End your code here -->
+  <p><div id="msg" /></p>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

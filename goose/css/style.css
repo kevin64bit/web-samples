@@ -1,0 +1,11 @@
+#goose {
+  position: absolute;
+  left: 1px;
+  top:  100px;
+  visibility: visible;
+}
+body {
+  background-attachment: fixed;
+  background-image: url('https://raw.githubusercontent.com/kevin64bit/web-samples/main/goose/img/selective_pond.jpg');
+  background-size: cover;
+}
