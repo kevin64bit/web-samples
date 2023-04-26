@@ -1,0 +1,52 @@
+/*
+This is a comment in CSS.
+*/
+
+input[type="text"] {
+  background-color: #FCFCE4;
+}
+
+body {
+  background-color: white;
+}
+
+li {
+  list-style-type: square;
+}
+
+.titleBlue {
+  background: url("https://web.archive.org/web/20050728232338im_/http://www.selective.com/psClient/Images/blue_title.gif");
+  color: white;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.titleGray {
+  background: url("https://web.archive.org/web/20050728232338im_/http://www.selective.com/psClient/Images/gray_title.gif");
+  color: white;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.menu {
+  background-image: url("https://web.archive.org/web/20050728232338im_/http://www.selective.com/psClient/Images/nav_off.gif");
+  background-repeat: repeat-y;
+  color: white;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.box {
+  border: 1px solid;
+}
+/* Uncomment these to show borders around tables for debugging
+table{
+  border: 1px solid red;
+}
+td {
+  border: 1px solid green;
+}
+*/

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Retro Selective website</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+</head>
+<body onload="CheckStock();">
+    <!-- Start your code here -->
+    <table width="750">
+        <tr>
+            <td><img src="https://web.archive.org/web/20050728232338im_/http://www.selective.com/psClient/Images/selective_logo.gif"></td>
+            <td align="right"><input id="searchbutton" type="text"><input type="button" value="Search" onclick="ExampleSearch();"><br><div id="welcome"></div></td>
+        </tr>
+        <tr>
+            <td valign="top" rowspan="2" width="100%">
+                <table class="menu">
+                    <tr>
+                        <td>Company Info</td>
+                    </tr>
+                    <tr>
+                        <td>Business Solutions</td>
+                    </tr>
+                    <tr>
+                        <td>Personal Solutions</td>
+                    </tr>
+                    <tr>
+                        <td>Flood</td>
+                    </tr>
+                    <tr>
+                        <td>Careers</td>
+                    </tr>
+                    <tr>
+                        <td>Corporate Governance</td>
+                    </tr>
+                    <tr>
+                        <td>Investors</td>
+                    </tr>
+                    <tr>
+                        <td>Newsroom</td>
+                    </tr>
+                    <tr>
+                        <td>Report A Claim 24/7</td>
+                    </tr>
+                    <tr>
+                        <td>Subsidiaries</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://web.archive.org/web/20050728232338im_/http://www.selective.com/psClient/Images/AMBest.gif"></td>
+                    </tr>
+                </table>
+            </td>
+            <td colspan="2"><img src="https://web.archive.org/web/20050728232338im_/http://www.selective.com/psClient/Images/home-page-composite-recrui.jpg"></td>
+        </tr>
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td valign="top" rowspan="5" width="75%">Selective Spotlight
+                            <ul>
+                                <li>Selective Insurance Group Reports 2nd Quarter 2005 Earnings</li>
+                                <li>Bring your child to work day</li>
+                            </ul>
+                        </td>
+                      <!-- Login -->
+                        <td class="box">
+                            <table>
+                              <tr>
+                                <th colspan="2" class="menu">Agent eSelect Login</th></tr>
+                                <tr>
+                                    <td>UserId</td>
+                                    <td><input id="username" type="text"></td>
+                                </tr>
+                            </table>
+                            <input type="checkbox" /> Remember my ID
+                            <br />
+                            <input type="button" value="Log In" onclick="CheckLogin();">
+                        </td>
+                    </tr>
+                    <tr>
+                      <!-- Customer Links -->
+                        <td class="box">Customer Links
+                            <ul>
+                                <li>Pay My Bill</li>
+                                <li>Find an Agent</li>
+                                <li>Report a Claim</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                      <!-- Stock price -->
+                        <td class="box">
+                            <table>
+                              <tr><td colspan="3" class="menu">Current Stock Price</td></tr>
+                                <tr>
+                                    <td colspan="3">Traded on the <a href="http://quotes.nasdaq.com/quote.dll?page=full&mode=basics&symbol=SIGI&selected=SIGI">NASDAQ</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Symbol</td>
+                                    <td>Price</td>
+                                    <td>Change</td>
+                                </tr>
+                                <tr>
+                                    <td>SIGI</td>
+                                    <td>$48.68</td>
+                                    <td id="pricechange">+0.38</td>
+                                </tr>
+                              <tr><td colspan="3"><i>As of 4:00 PM, 7/28/2005</i></td></tr>
+                            </table>
+                            
+                        </td>
+                    </tr>
+                </table>
+    </table>
+
+    <!-- End your code here -->
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

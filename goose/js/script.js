@@ -10,7 +10,7 @@ function ShowHide(item) {
         var label = 'Hide';
   }
   element.style.visibility = new_state;
-  document.getElementById("ShowHide").innerHTML = label;
+  document.getElementById("ShowHide").innerHTML = label + ' goose';
 }
 
 // Resize the goose picture, as percentage of original image size
